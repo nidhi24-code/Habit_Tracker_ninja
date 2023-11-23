@@ -1,0 +1,39 @@
+.background {
+  /* background-image: url("../public/moon.jpg"); */
+  background-size: 90%;
+  background-position: -350% 30%;
+  /* background-position: right; */
+}
+body {
+  background: rgb(101, 26, 26);
+  background: radial-gradient(
+    circle,
+    rgb(89, 116, 36) 100%,
+    rgb(186, 115, 0) 100%,
+    rgb(246, 242, 9) 100%
+  );
+}
+
+.gradient {
+  background-color: #13069c;
+  background-image: linear-gradient(315deg, #19135e 0%, #ae2121 74%);
+}
+.gradient1 {
+  background-color: #6d0c74;
+  background-image: linear-gradient(320deg, #0865f0 0%, #e5780b 34%);
+}
+
+.done {
+  color: rgb(5, 84, 18);
+}
+.fail {
+  color: rgb(235, 14, 14);
+}
+.day-headings {
+  color: #2c4d55;
+}
+.text-light {
+  /*font-family: monospace, "Montserrat", sans-serif;*/
+  font-family: cursive;
+  font-size: larger;
+}
